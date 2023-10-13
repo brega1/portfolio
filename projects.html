@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Projects - Bryce Rega</title>
+  <link rel="stylesheet" href="projectsCSS.css">
+</head>
+<body>
+    <div class="container">
+    <div class="header">
+                
+        <ul class="navigation">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="classes.html">Classes</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="documents.html">Documents</a></li>
+        </ul><!-- End navigation -->
+
+    </div><!-- End header -->
+  <div class="pimg1">
+    <div class="ptext">
+      <span class="border">
+        Projects
+      </span>
+    </div>
+  </div>
+
+  <section class="section section-light">
+    <h2>PrISUm - Motor Interface Board</h2>
+    <p>
+      While driving their 15th car, Eliana, team PrISUm found themselves without working electronic motor controllers. 
+      The motor controllers they had used to supply the correct amount of current/voltage to the motors driving the solar-powered
+      car were fried. Not only did they lose beneficial features for telemetry and cruise control, but they lost motor control altogether.
+      To fix this issue, different motor controllers were used. The problem was that they were nowhere near compatible for the current
+      communication systems on the car, and they lacked features like cruise control. A new board, Motor Interface Board, was designed
+      and assembled to solve this issue. It acted as a translator as well as a substitue for the brains of the additional features.
+      It was my task to build and test custom developed software for this board so that the car may be operable again.
+    </p>
+    <p>
+      I was selected to work on this project since I had gotten myself familiar with both embedded C software and the standards
+      our software team had. I would need to explore not just the commonly used features of our microcontrollers, but also the more
+      unique features that come with the SAMC21J series of chips. In order to get a better understanding of what I needed to do on a 
+      more technical level, I worked with the board's designer to determine which parts of the board did what and how I'd be able to
+      use them. Communication and documentation played an important role in this project because of this and would prove to be an important
+      experience going forward.
+    </p>
+    <p>
+      In addition to the embedded systems skills and communication skills, I would need to work on something less common in our embedded
+      work on the solar car: feedback loop algorithms. Essentially, I needed to develop a custom cruise control for the car from scratch.
+      I had some previous knowledge on systems going into this project, but to reslly make sure I had everything I needed, I used an
+      excellent resource already provided by the university, a professor's guidance. I worked with a controls professor to finalize my design.
+      I would then have this cruise algorithm tested with the rest of the board's software while the car was driving.
+      This was a major success.
+    </p>
+    <p>
+      Working on this project helped solidify my understanding of techical embedded software topics, give me experience working with
+      other engineer's design to make something on a larger scale, and document my processes effectively. I would go on to give this project
+      as an example for an interview for an internship. I ended getting that internship where the lessons I learned from this project played
+      an important role in the work I did for the internship.
+    </p>
+  </section>
+
+  <div class="pimg2">
+    <div class="ptext">
+      <span class="border trans">
+      </span>
+    </div>
+  </div>
+
+  <section class="section section-dark">
+    <h2>CprE 288 - Intelligent Mapping Roomba</h2>
+    <p>
+        Throughout the embedded systems class, I had developed a modular library that reliably controlled the Roomba.
+        Using this modularity, basic telemetry data could be collected and transmitted (initially to a console and then
+        to a GUI) and movement algorithms to reach a target while avoiding obstacles. With this competed ahead of time,
+        the project's goal could be ambitious: Control a Roomba with a DualShock4 controller using nothing more than a
+        GUI sent by the telemetry on the bot while also making use of autonomous algorithms. The Roomba in real time would
+        send data to update a live map for the pilot using the controller. The controller moved the Roomba in the way
+        a video game would move a character. The pilot could use the right joystick of the controller as well to move a target
+        on the map for the Roomba to autonomously drive to. This project was an absolute joy.
+    </p>
+  </section>
+
+  <div class="pimg3">
+    <div class="ptext">
+      <span class="border trans">
+      </span>
+    </div>
+  </div>
+
+  <section class="section section-gray">
+    <h2>ComS 309 - Chinese Checkers</h2>
+    <p>
+        <i>To be completed...</i>
+    </p>
+  </section>
+
+  <div class="footer">
+
+    <ul class="footerButtons">
+        <li> &copy; 2023 Bryce Rega  </li>
+        <li>|</li>
+        <li><a href="https://bregatech.com">Original Website</a></li>
+        <li>|</li>
+        <li><a href="http://mailto:brega@iastate.com">Contact</a></li>
+    </ul>
+ 
+   </div><!-- End footer -->
+
+  <!-- <div class="pimg1">
+    <div class="ptext">
+      <span class="border">
+        Traversy Media
+      </span>
+      </div>
+    </div> -->
+  </div>
+</body>
+</html>
