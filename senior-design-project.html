@@ -39,6 +39,24 @@
     <div class="pimg2">
       <div class="ptext">
         <span class="border trans">
+          <p>
+            Electric vehicles of all kinds need their own set of special parts. The demand for electric vehicles has
+            gone from the occasional golf carts to high demand EVs and electric bikes. With that, these special parts
+            are
+            needed in high quantity and variety. One notable part, the motor controller, is something that tends to be
+            expensive and can be difficult to configure. However, every electric vehicle needs one and all sorts of
+            people need to be able to configure it for their project. While there are low power motor controllers for
+            drones
+            and high power ones for EVs like Teslas, lightweight vehicles like university solar cars and DIY electric
+            bikes
+            have a lack of options. This lack of options leaves us with motor controllers that are too expensive,
+            difficult or unable to configure, and are poorly documented.
+          </p>
+          <p>
+            The aim of this project is to develop a motor controller for lightweight EVs (such as PRISUM's solar car at
+            Iowa State or a DIY ebike) that is less expensive, easily configurable, and can be troubleshooted with
+            excellent documentation and tools.
+          </p>
         </span>
       </div>
     </div>
@@ -46,7 +64,23 @@
     <section class="section section-dark">
       <h2>My Contribution</h2>
       <p>
-        Embedded
+        Most of my team is hardware oriented, but I will be focues on the embedded systems as that is what I do best.
+        This involves using a microcontroller to control 6 PWM channels to time the magnets/phases of the motor. There
+        needs to also be software to detect speed with and without HALL sensors, and will also include a PID controller
+        to maintain a speed. It should be controlled by both CAN as well as non-CAN methods (GPIO and analog signals).
+      </p>
+      <p>
+        Initially, this can be done with a development board. ST has a good example board for our power requirements and
+        has a lot of software examples. This software is fairly bloated and can be reverse engineered. Eventually, a
+        custom PCB will be developed by the hardware members of the team and we can choose the MCU and ICs that are
+        needed. Using our own custom software, we can control these and make this controller work to how we are desired.
+      </p>
+      <p>
+        Learning how a 6-step 3-phase brushless DC motor works in the first place has been extremely challenging and is
+        totally new knowledge. I'm familiar with PWM output, but using them in this way (where there are three pairs
+        that are controlled the way they are) is something new. Trying to reverse engineer example software as large as
+        this has also been challenging. All of these gained skills and experiences is exactly what I was hoping to get
+        out of senior design.
       </p>
     </section>
 
@@ -59,9 +93,9 @@
 
     <section class="section section-gray">
       <h2>Documents</h2>
-      <p>
-        <i>To be completed...</i>
-      </p>
+      <h3>Proposal</h3>
+      <h3>Design Document Part 1</h3>
+      <h3>Design Document Part 2</h3>
     </section>
 
     <div class="footer">
