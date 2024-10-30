@@ -91,7 +91,38 @@
     <section class="section section-gray">
       <h2>PrISUm - Software Ecosystem</h2>
       <p>
-        <i>To be completed...</i>
+        As I became a leader in PrISUm, almost all of the board-specific projects were delegated to members of the
+        software team rather than myself. Instead, I spent time focusing on big-picture systems and how the software
+        integrates into the rest of the car and our team's operations. On our team, we have the embedded software that
+        goes on each PCB and is what I manage. We also have our Telemerty system which involves a C++ backend server in
+        the car that listens to the embedded software on the boards and reports information to a web application via
+        websockets. Finally, our strategy team has Python scripts that can simulate the car digitally, such as the
+        battery pack's performace for construction or the car's performace during a race, to give strategy members the
+        information they need to make decisions for how we construct and compete with the car.
+      </p>
+      <p>
+        In constructing a new car with new embedded software, new telemetry, and modified strategy software, I saw an
+        opprotunity. If we develop all of these systems in house, then they should all be able to talk to eachother and
+        aid eachother and can therefore make a smarter car. There could be a software ecosystem that allows the strategy
+        software to inform the driver and car's systems on strategic moves and then can use Telemetry to gain data in
+        real time to update strategy models in real time. This is an idea that has not been seen in a solar car race
+        before, but isn't all that removed from other ecosystems that can be found in industry. For example, the
+        military has a software ecosystem that allows a tank to communicate with an aircraft with how to target an
+        unseen location and can relay this to a central command.
+      </p>
+      <p>
+        To make this happen, configurations that can be set remotely on the car or locally are stored on the telemetry
+        system and local EEPROM emulation on the respective board. Data is sent over CAN within the car and relayed to
+        the telemetry system. The Python scripts and the web application would both support the websockets the telemetry
+        system uses. This will now be a two way system where the web application can send messages to the driver and the
+        strategy software can send recommendations for configurations for each embedded project on the car.
+      </p>
+      <p>
+        This project is still being developled, but as phases occur and the project gets further along, the car will
+        become smarter and smarter until it is enough to make the difference-- one that makes us go from being a
+        competitive solar car team to a dominant solar car team. My role in coordinating this involves learning and
+        understanding websocket topics from my previous classes as well as new topics like EEPROM emulation from out
+        MCU's datasheet all help move this forward.
       </p>
     </section>
 
@@ -105,7 +136,19 @@
     <section class="section section-gray">
       <h2>PrISUm Software Manager</h2>
       <p>
-        <i>To be completed...</i>
+        Becoming the embedded software manager for the solar car team has been one of the best expereinces I've had at
+        Iowa State. I haven't lead a team this big with this short of deadlines outside of basic class projects. Each
+        semester it was my job to recruit and teach new students about the embedded software they would learn. CprE
+        students don't take an embedded class (CprE 288) until their fourth semester and since we have students from
+        many majors, some won't take the class at all. Students typically come in with some programming experience with
+        little C or embedded knowledge.
+      </p>
+      <p>
+        Teaching people about embedded systems so early sets them up for success in class and in fnding an internship.
+        My goal is to get people past the initial learning phase and into working on projects. Working on projects that
+        actually go on a car can be the best method of learning. Coordinating these projects to make on large embedded
+        system work together ias another part of the job and has been a great experience. Seeing everything come
+        together and interface with our own hardware as well as third party hardware is satisfying.
       </p>
     </section>
 
