@@ -34,14 +34,26 @@
       <p>
         Throughout the embedded systems class, I had developed a modular library that reliably controlled the Roomba.
         Using this modularity, basic telemetry data could be collected and transmitted (initially to a console and then
-        to a GUI) and movement algorithms to reach a target while avoiding obstacles. With this competed ahead of time,
+        to a GUI) and movement algorithms to reach a target while avoiding obstacles. With this completed ahead of time,
         the project's goal could be ambitious: Control a Roomba with a DualShock4 controller using nothing more than a
         GUI sent by the telemetry on the bot while also making use of autonomous algorithms. The Roomba in real time
-        would
-        send data to update a live map for the pilot using the controller. The controller moved the Roomba in the way
-        a video game would move a character. The pilot could use the right joystick of the controller as well to move a
-        target
-        on the map for the Roomba to autonomously drive to. This project was an absolute joy.
+        would send data to update a live map for the pilot using the controller. The controller moved the Roomba in the
+        way a video game would move a character. The pilot could use the right joystick of the controller as well to
+        move a target on the map for the Roomba to autonomously drive to.
+      </p>
+      <p>
+        This project was an absolute joy. My involvement was heavy as I had experience with this sort of thing whereas
+        my group wasn't. When dividing the work, we decided it'd be best for me to focus on C-related embedded work (the
+        roomba itself, music, and algorithms) and the rest of the team, more experience with Raspberry Pis, would be
+        focused on the Pi to get the DS4 controllers to work. I developed what I needed to and also developed a Python
+        GUI on my computer that could display telemetry, show a map of where the roomba is compared to obstacles and
+        borders, would show a target for the sutonomous program, and could even control the roomba.
+      </p>
+      <p>
+        I hadn't been too familiar with Python or C websockets, but I learned a lot gettgin those functions to work for
+        this project. There were some websocket tutorials online along with TKinter projects that helped guide me along
+        the way. Datasheets of the IMU helped me develop I2C support on the roomba to figure out exactly where it was
+        using the IMU.
       </p>
     </section>
 
@@ -55,7 +67,21 @@
     <section class="section section-gray">
       <h2>ComS 309 - Chinese Checkers</h2>
       <p>
-        <i>To be completed...</i>
+        This was a full-stack development project where a group of 4 students would develop an Android application that
+        talked with a webserver to allow for multiple users of different roles to access the app at once. What the app
+        did was up to us. To keep things interesting, knowing this could get difficult and long, we decided to choose a
+        game that could be done in a turn-based system to prevent a laggy feel. Chinese Checkers was unique and perfect.
+      </p>
+      <p>
+        I partnered up with another CprE student to work the backend while the two SE students on our team worked on the
+        front end. I was focused on developing tangible features to show during our demonstrations throughout the year.
+        This involved developing the system in charge of creating lobbies, freind requests, and parties in the game. I
+        had to learn how to develop and interface with a SQL database-- a skill that would prove useful in future
+        classes. We learned how to use SpringBoot libraries to keep the backend strucutred and running. Eventually, I'd
+        run into using Websockets again to creat in-game and public chats for players to chat in game in real time. A
+        lot of SpringBoot tutorials were used to learn how to do all of this properly as much of the class's
+        documentation was outdated. We used the Computer Science department's own servers to host our server and
+        database and connected it to our GitLab repository's pipeline for executing this project.
       </p>
     </section>
 
@@ -69,7 +95,22 @@
     <section class="section section-gray">
       <h2>ComS 319 - Cyclone Eats</h2>
       <p>
-        <i>To be completed...</i>
+        This was a web application project that saw two phases in the class. The first midterm project involved
+        setting up a basic website with basic generative tools we had and the second phase had us use ReactJS and a
+        database to store information and to do something usefule with it. My partner and I decided on creating a web
+        application that combined all of the food options on campus (run by ISU Dining, students, and commercial) into
+        one centralized ordering option.
+      </p>
+      <p>
+        I was involved with a lot of the code that interfaced with the database as well as code that helped generate
+        webpages. My partner was involved with some page generation and populating our website and database in a way to
+        make it useful. In ComS 309, I handled a more structured database, SQL, but in this class, we went for a
+        different approach and I learned how to work with MongoDB. While I had some web-dev experience, I never used
+        ReactJS tools like WebHooks, JQuery, and parsing JSON to generate pages before. These skills make me confident
+        in being able to develop more complicated websites myself-- a useful skill for anyone to have. Our ZyBook was
+        fairly sufficient, but other resources like Bootstrap and MongoDB turorials helped point us in the right
+        direction. We were able to host the MongoDB database locally and install ReactJS locally to keep things working,
+        but these could easily be put on an external server to keep this running.
       </p>
     </section>
 
