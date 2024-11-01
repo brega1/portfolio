@@ -162,7 +162,10 @@ li {
 
   .pimg1,
   .pimg2,
-  .pimg3 {
+  .pimg3,
+  .pimg4,
+  .pimg5,
+  .pimg6 {
     background-attachment: scroll;
   }
 
