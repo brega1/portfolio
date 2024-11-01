@@ -141,11 +141,11 @@ li {
 
 .section-light {
   background-color: #f4f4f4;
-  color: #666;
+  color: #666 !important;
 }
 
 a .section-light {
-  color: #666;
+  color: #666 !important;
 }
 
 .section-dark {
