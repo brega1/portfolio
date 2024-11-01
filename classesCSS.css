@@ -102,17 +102,17 @@ li {
 }
 
 .pimg4 {
-  background-image: url('PokemonScreenshot.png.JPG');
+  background-image: url('PokemonScreenshot.png');
   min-height: 100%;
 }
 
 .pimg5 {
-  background-image: url('OsScreenshot.png.jpeg');
+  background-image: url('OsScreenshot.png');
   min-height: 60%;
 }
 
 .pimg6 {
-  background-image: url('488drone.png.png');
+  background-image: url('488drone.png');
   min-height: 60%;
 }
 
