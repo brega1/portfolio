@@ -144,6 +144,10 @@ li {
   color: #666;
 }
 
+a .section-light {
+  color: #666;
+}
+
 .section-dark {
   background-color: #282e34;
   color: #ddd;
